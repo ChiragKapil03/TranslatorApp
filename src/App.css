@@ -1,0 +1,58 @@
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://pmecdn.protonweb.com/image-transformation/?s=c&image=images%2Ff_auto%2Cq_auto%2Fv1707564412%2Fwp-pme%2Fonline-privacy-tools-translation%2Fonline-privacy-tools-translation.%3F_i%3DAA&width=1646&height=823");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.mainContainer{
+  display: flex;
+  gap: 50px;
+  width: 80%;
+  justify-content: center;
+}
+.inputBox{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.Input{
+  width: 400px;
+  min-height: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+.TranslatedText{
+  width: 400px;
+  min-height: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: whitesmoke;
+}
+.btn{
+  background:linear-gradient( 130deg, rgb(93, 30, 230), rgb(101, 43, 226), rgb(133, 86, 234));
+  color: white;
+  width: 200px;
+}
+.btn:hover{
+ scale: 1.08;
+ transition: 0.6s;
+}
+.SelectLanguage{
+  height: 35px;
+  border-radius: 5px;
+
+}
